@@ -49,10 +49,11 @@ img {
 /** ===== header - nav ====== */
 .header {
     width: 100%;
-    background-color: var(--first-color);
+    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .nav {
